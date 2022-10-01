@@ -8,8 +8,15 @@
         <h1>Task 3</h1><br><br>
         <script>
             let n=parseInt(prompt('Enter the limit',0));
-            
-
+            fun(n);
+            function fun(a){
+                for(i=1;i<=n;i++){
+                for(j=1;j<=i;j++){
+                    document.write(`${j} `);
+                }
+                document.write('<br>');   
+            }
+            }
         </script>
     </body>
 </html>
