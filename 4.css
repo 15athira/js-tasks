@@ -23,10 +23,11 @@ p {
 }
 #para {
     height: 40;
-    width: 300;
+    width: 390;
     background-color:#ffffff;
     color: #D72C16;
-    margin-left:50;    
+    margin-left:50; 
+    margin-right: 50;   
 }
 .button {
     display: flex;
@@ -44,4 +45,5 @@ p {
 #number1,#number2 {
     background-color: #ffffff;
     color: #D72C16;
+    font-size: 18;
 }
