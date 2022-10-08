@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 200;
+    background-color: rgb(213, 217, 221);
+}
+.box {
+    height: 300px;
+    width: 300px;
+    background-color:#ffffff;
+    text-align: center; 
+    border-radius: 20px;
+}
+#head {
+    color: rgb(18, 18, 121);
+    font-size: 40px;
+}
+#num {
+    font-size: 70px;
+    margin: 20;
+    color: rgb(44, 99, 176);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+button {
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 30;
+    margin-top: 25;
+    color: #ffffff;
+}
+#b1 {
+    margin-right: 20;
+    border-color: rgb(255, 255, 255);
+    background-color:rgb(249, 126, 4);
+}
+#b2 {
+    border-color: #132dda;
+    border-radius: 20px;
+    background-color: #132dda;
+}
+#b3 {
+    margin-left: 20;
+    border-color: white;
+    background-color: green;
+}
